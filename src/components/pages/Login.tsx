@@ -4,6 +4,7 @@ import { Flex, Box, Heading, Divider, Input, Stack } from "@chakra-ui/react";
 import { PrimaryButton } from "../atoms/button/PrimaryButton";
 
 export const Login: FC = memo(() => {
+  const {} = useState("");
   return (
     <Flex align="center" justify="center" height="100vh">
       <Box bg="white" w="sm" p={4} borderRadius="md" shadow="md">
